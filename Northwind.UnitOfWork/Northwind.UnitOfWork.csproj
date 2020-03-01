@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.Models\Northwind.Models.csproj" />
+    <ProjectReference Include="..\Northwind.Repository\Northwind.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
