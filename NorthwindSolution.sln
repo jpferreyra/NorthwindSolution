@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Repositories", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.WebApi", "Northwind.WebApi\Northwind.WebApi.csproj", "{D9266028-78DF-4C6D-93CE-E9EBA2B27760}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptDB", "ScriptDB", "{BE952F64-09EA-4327-BEAC-3A93DAD3CE6D}"
+	ProjectSection(SolutionItems) = preProject
+		Base.sql = Base.sql
+		Insert.sql = Insert.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
