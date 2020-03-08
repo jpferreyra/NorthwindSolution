@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Northwind.DataAccess;
 using Northwind.UnitOfWork;
 using Northwind.WebApi.Authentication;
+using Northwind.WebApi.GlobalErrorHandling;
 
 namespace Northwind.WebApi
 {
@@ -65,6 +66,7 @@ namespace Northwind.WebApi
 
             app.UseAuthentication();
             app.UseHttpsRedirection();
+            app.ConfigureExceptionHandler();
             app.UseMvc();
         }
     }
